@@ -4,13 +4,14 @@ Professional web stack for BAPI. This repo hosts docs now and the codebase later
 
 ## Project Board
 
-👉 Roadmap, sprints, and timeline: <PASTE-YOUR-GITHUB-PROJECT-URL>
+👉 Roadmap, sprints, and timeline: https://github.com/users/andrewteece/projects/7
 
 ## Docs
 
 - [Milestones](docs/MILESTONES.md)
 - [Project Color Key](docs/PROJECT-COLOR-KEY.md)
 - [Onboarding](docs/ONBOARDING.md)
+- [Website Audit](docs/WEBSITE-AUDIT.md)
 
 ## Planned Tech
 
