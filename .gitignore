@@ -1,0 +1,22 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Build
+.next/
+dist/
+out/
+coverage/
+
+# Env
+.env*
+!.env.example
+
+# OS/Editor
+.DS_Store
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
