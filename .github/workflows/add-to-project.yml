@@ -1,0 +1,36 @@
+name: Auto-add issues to Project
+on:
+  issues:
+    types: [opened]
+permissions:
+  repository-projects: write
+  contents: read
+  issues: write
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const projectNumber = 1; // UPDATE: your org/user project number
+            const org = 'andrewteece'; // UPDATE if moved to org
+            const { data } = await github.graphql(`
+              query($org: String!, $number: Int!) {
+                organization(login: $org) { projectV2(number: $number) { id } }
+              }`, { org, number: projectNumber }).catch(async () => {
+                const user = org;
+                const res = await github.graphql(`
+                  query($user: String!, $number: Int!) {
+                    user(login: $user) { projectV2(number: $number) { id } }
+                  }`, { user, number: projectNumber });
+                return { data: res };
+              });
+            const projectId =
+              data.organization?.projectV2?.id ?? data.user?.projectV2?.id;
+            await github.graphql(`
+              mutation($projectId: ID!, $contentId: ID!) {
+                addProjectV2ItemById(input: {projectId: $projectId, contentId: $contentId}) {
+                  item { id }
+                }
+              }`, { projectId, contentId: context.payload.issue.node_id });
