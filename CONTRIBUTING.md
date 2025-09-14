@@ -3,8 +3,6 @@
 Thank you for your interest in contributing to **BAPI Web**!
 These guidelines ensure consistency and high-quality contributions.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for branch, commit, and PR guidelines.
-
 ---
 
 ## 📂 Branching Strategy

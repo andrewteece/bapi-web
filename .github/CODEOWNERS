@@ -1,1 +1,30 @@
+# CODEOWNERS — GitHub will auto-request reviews from these owners
+# File location: .github/CODEOWNERS
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything
 * @andrewteece
+
+# ─────────────────────────────────────────────────────────────
+# Examples for future team members / areas
+# Uncomment and replace @handles when ready
+#
+# Frontend app (Next.js / src code)
+# /src/** @andrewteece @frontend-collaborator
+#
+# Shared UI library (if split into a package later)
+# /packages/ui/** @andrewteece @design-systems
+#
+# Infrastructure / workflows
+# /.github/** @andrewteece @devops
+#
+# Documentation
+# /docs/** @andrewteece @tech-writers
+#
+# WordPress integration (headless)
+# /wp/** @andrewteece @wp-team
+#
+# Config files
+# *.json @andrewteece
+# *.yml  @andrewteece
+# *.yaml @andrewteece
