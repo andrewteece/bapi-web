@@ -8,22 +8,24 @@ Professional web stack for BAPI. This repo hosts docs now and the codebase later
 
 ## Docs
 
-- [Overview](docs/OVERVIEW.md)
-- [Roadmap](docs/ROADMAP.md)
-- [Milestones](docs/MILESTONES.md)
+- [Overview](docs/OVERVIEW.md) - Role requirements and 30-60-90 day goals
+- [Roadmap](docs/ROADMAP.md) - Development epics and milestones
+- [Onboarding](docs/ONBOARDING.md) - WordPress-focused preparation plan
+- [Job Requirements Alignment](docs/JOB-REQUIREMENTS-ALIGNMENT.md) - Skills assessment
+- [Preparation Summary](docs/PREPARATION-SUMMARY.md) - **Ready for Oct 6, 2025** ✅
 - [Project Color Key](docs/PROJECT-COLOR-KEY.md)
-- [Onboarding](docs/ONBOARDING.md)
+- [Milestones](docs/MILESTONES.md)
 
-### Audits
+### Audits & Examples
 
-- [Website Audit Overview](docs/audits/website/README.md)
-  - [Accessibility & Best Practices](docs/audits/website/website-accessibility-best-practices.md)
-  - [Accessibility Checklist](docs/audits/website/accessibility-checklist.md)
-  - [Technical SEO Audit](docs/audits/website/website-seo-audit.md)
-  - [SEO Checklist](docs/audits/website/seo-checklist.md)
-  - [Performance Audit](docs/audits/website/website-performance-audit.md)
-  - [Performance Checklist](docs/audits/website/performance-checklist.md)
-  - [Exports (raw reports)](docs/audits/website/exports/)
+- [BAPI Website Audit Framework](docs/audits/website/README.md) - WordPress & e-commerce focus
+- [Technical Skills Examples](src/examples/README.md) - WordPress & content translation demos
+  - [WordPress Product Template](src/examples/technical-product-template.php)
+  - [Technical Content Translation](src/examples/technical-content-translation.md)
+- [🎯 BAPI Mega Menu Mockup](https://github.com/andrewteece/bapi-mega-menu) - UX improvement prototype
+- [Accessibility & Best Practices](docs/audits/website/website-accessibility-best-practices.md)
+- [Technical SEO Strategies](docs/audits/website/website-seo-audit.md)
+- [Performance Optimization](docs/audits/website/website-performance-audit.md)
 
 ## Planned Tech
 
