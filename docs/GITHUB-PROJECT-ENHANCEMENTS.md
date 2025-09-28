@@ -11,8 +11,10 @@
 - **Estimate**: S
 - **Target**: October 1, 2025
 - **Description**:
-  ```
+
+  ```markdown
   Final review and polish of all preparation documentation:
+
   - Ensure README.md links are working
   - Verify all examples are properly formatted
   - Check technical content translation examples
@@ -29,8 +31,10 @@
 - **Estimate**: S
 - **Target**: October 3, 2025
 - **Description**:
-  ```
+
+  ```markdown
   Create presentation materials for Christian Ellefson meeting:
+
   - GitHub repos overview (bapi-web, mega-menu mockup)
   - Key preparation highlights and deliverables
   - 90-day roadmap summary
@@ -47,8 +51,10 @@
 - **Estimate**: M
 - **Target**: October 5, 2025
 - **Description**:
-  ```
+
+  ```markdown
   Refresh skills in required Adobe Creative Suite applications:
+
   - InDesign: Technical documentation templates
   - Photoshop: Product image optimization techniques
   - Illustrator: Basic technical diagrams and graphics
@@ -69,8 +75,10 @@
 - **Estimate**: S
 - **Target**: October 6, 2025
 - **Description**:
-  ```
+
+  ```markdown
   First meeting with Marketing Manager:
+
   - Present GitHub repos and project board
   - Show mega menu mockup and strategic thinking
   - Discuss immediate priorities and pain points
@@ -87,8 +95,10 @@
 - **Estimate**: S
 - **Target**: October 7, 2025
 - **Description**:
-  ```
+
+  ```markdown
   Technical environment setup and access:
+
   - WordPress admin access and user role configuration
   - Hosting environment details and FTP/SSH access
   - Review current plugins, themes, and customizations
@@ -106,8 +116,9 @@
 - **Estimate**: S
 - **Target**: October 8, 2025
 - **Description**:
-  ```
+  ```markdown
   Present UX improvement prototype:
+
   - Show mega menu mockup (github.com/andrewteece/bapi-mega-menu)
   - Demonstrate understanding of navigation challenges
   - Position as user experience improvement for international customers
@@ -124,8 +135,9 @@
 - **Estimate**: M
 - **Target**: October 9, 2025
 - **Description**:
-  ```
+  ```markdown
   Deploy comprehensive audit framework on live BAPI site:
+
   - Run Lighthouse, GTMetrix, SEMrush baseline analysis
   - Use prepared WordPress-specific audit checklist
   - Focus on e-commerce functionality and technical product pages
