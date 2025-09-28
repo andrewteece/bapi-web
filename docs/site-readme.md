@@ -5,6 +5,7 @@ This directory contains the GitHub Pages site for the BAPI web modernization pro
 ## Setup Instructions
 
 1. **Enable GitHub Pages**:
+
    - Go to repository Settings
    - Navigate to Pages section
    - Set Source to "Deploy from a branch"
