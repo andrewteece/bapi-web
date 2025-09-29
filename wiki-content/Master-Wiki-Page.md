@@ -5,6 +5,7 @@ Welcome to the comprehensive documentation for BAPI's website modernization proj
 ## 📋 Quick Navigation
 
 - [Project Status](#project-status)
+- [Competitive Analysis](#competitive-analysis)
 - [Getting Started](#getting-started)
 - [WordPress Audit Procedures](#wordpress-audit-procedures)
 - [Migration Planning](#migration-planning)
@@ -26,7 +27,59 @@ Welcome to the comprehensive documentation for BAPI's website modernization proj
 
 ---
 
-## 🚀 Getting Started
+## � Competitive Analysis
+
+Strategic assessment of BAPI's key competitors in the building automation and HVAC sensor market, focusing on website SEO presence and e-commerce capabilities.
+
+### Key Findings
+
+#### High Threat Competitors 🔴
+- **Dwyer Instruments**: Full e-commerce, strong catalog, needs Core Web Vitals optimization
+- **Veris (Leviton)**: Global brand presence, full e-commerce, less intuitive filtering
+- **Honeywell Building Technologies**: Massive SEO authority, mostly quote-based, heavy/slow site
+
+#### Medium Threat Competitors 🟡
+- **Greystone Energy Systems**: Clean UX, quote-only, no blog/resources, English-only
+- **Setra Systems**: Premium positioning, quote model, limited content marketing
+- **Siemens Building Technologies**: Enterprise focus, no e-commerce, slower performance
+- **Johnson Controls**: Corporate complexity, quote-only, ignores mid-market
+- **Distech Controls**: IoT leadership, solution-oriented, no direct cart
+
+### Strategic Opportunities for BAPI
+
+#### E-commerce Differentiation
+- Most competitors use "request quote" model
+- BAPI can win by offering direct purchasing
+- Capture smaller orders that competitors ignore
+
+#### Performance Advantage
+- Many enterprise sites are heavy and slow
+- BAPI can excel with optimized Core Web Vitals
+- Target mobile-first experience
+
+#### Content Marketing Gap
+- Limited blog/resource presence among competitors
+- Opportunity for technical thought leadership
+- Target long-tail keywords where big players are weak
+
+#### Market Positioning
+- Target mid-market integrators vs. enterprise-only focus
+- Emphasize calibration accuracy and reliability
+- Faster product discovery and purchasing
+
+### Recommended Actions
+
+1. **Implement Full E-commerce**: Direct purchasing differentiates from quote-heavy competitors
+2. **Optimize Core Web Vitals**: Outperform slower enterprise sites
+3. **Content Strategy**: Technical blogs and resources for SEO advantage
+4. **Long-tail SEO**: Target specific sensor and HVAC keywords
+5. **Mobile-First UX**: Better experience than complex corporate sites
+
+**📋 [View Complete Competitive Matrix](https://github.com/andrewteece/bapi-web/blob/main/docs/bapi_competitor_matrix_polished.md)** - Detailed analysis of 8 competitors with specific recommendations
+
+---
+
+## �🚀 Getting Started
 
 Quick onboarding guide for new team members joining the BAPI website modernization project.
 
