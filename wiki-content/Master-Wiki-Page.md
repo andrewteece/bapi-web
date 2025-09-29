@@ -8,6 +8,8 @@ Welcome to the comprehensive documentation for BAPI's website modernization proj
 - [Competitive Analysis](#competitive-analysis)
 - [Getting Started](#getting-started)
 - [WordPress Audit Procedures](#wordpress-audit-procedures)
+- [WooCommerce Migration](#woocommerce-migration)
+- [Competitive Analysis](#competitive-analysis)
 - [Migration Planning](#migration-planning)
 - [Key Resources](#key-resources)
 
@@ -34,11 +36,13 @@ Strategic assessment of BAPI's key competitors in the building automation and HV
 ### Key Findings
 
 #### High Threat Competitors 🔴
+
 - **Dwyer Instruments**: Full e-commerce, strong catalog, needs Core Web Vitals optimization
 - **Veris (Leviton)**: Global brand presence, full e-commerce, less intuitive filtering
 - **Honeywell Building Technologies**: Massive SEO authority, mostly quote-based, heavy/slow site
 
 #### Medium Threat Competitors 🟡
+
 - **Greystone Energy Systems**: Clean UX, quote-only, no blog/resources, English-only
 - **Setra Systems**: Premium positioning, quote model, limited content marketing
 - **Siemens Building Technologies**: Enterprise focus, no e-commerce, slower performance
@@ -48,21 +52,25 @@ Strategic assessment of BAPI's key competitors in the building automation and HV
 ### Strategic Opportunities for BAPI
 
 #### E-commerce Differentiation
+
 - Most competitors use "request quote" model
 - BAPI can win by offering direct purchasing
 - Capture smaller orders that competitors ignore
 
 #### Performance Advantage
+
 - Many enterprise sites are heavy and slow
 - BAPI can excel with optimized Core Web Vitals
 - Target mobile-first experience
 
 #### Content Marketing Gap
+
 - Limited blog/resource presence among competitors
 - Opportunity for technical thought leadership
 - Target long-tail keywords where big players are weak
 
 #### Market Positioning
+
 - Target mid-market integrators vs. enterprise-only focus
 - Emphasize calibration accuracy and reliability
 - Faster product discovery and purchasing
@@ -312,6 +320,34 @@ Strategic roadmap for transforming BAPI's website from traditional WordPress to 
 - [ ] SEO metadata API integration
 - [ ] Multi-language content API support
 - [ ] E-commerce data API preparation
+- [ ] WooCommerce headless configuration
+- [ ] B2B pricing structure API mapping
+- [ ] Technical specification data preparation
+- [ ] Distributor workflow API design
+
+##### WooCommerce B2B Integration Strategy
+
+**Current Requirements**:
+
+- Technical product specifications and CAD downloads
+- Distributor-specific pricing and bulk order workflows
+- Integration with existing payment gateways and shipping
+- Preservation of technical documentation and support materials
+
+**Headless API Strategy**:
+
+- **WPGraphQL**: Primary API for product catalog, categories, and content
+- **WooCommerce Store API**: Cart, checkout, and order management
+- **REST API**: Administrative functions and custom integrations
+
+**Critical Migration Considerations**:
+
+- HPOS (High-Performance Order Storage) compatibility
+- B2B pricing logic preservation
+- Technical specification data integrity
+- Distributor workflow continuity
+
+_Complete analysis available_: [WooCommerce Headless Migration Matrix](../docs/bapi-woocommerce-headless-matrix-enhanced.md)
 
 #### Phase 3: Next.js Frontend Development (Weeks 9-16)
 
