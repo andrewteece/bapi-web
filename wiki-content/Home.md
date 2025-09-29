@@ -4,13 +4,13 @@ Welcome to the comprehensive documentation for BAPI's website modernization proj
 
 ## Quick Navigation
 
+- [Project Status Dashboard](Project-Status-Dashboard) - Current progress and milestones
+- [Competitive Analysis](Competitive-Analysis) - Market intelligence and opportunities
+- [WooCommerce Migration Strategy](WooCommerce-Migration-Strategy) - Technical migration approach
 - [Getting Started](Getting-Started) - New team member onboarding
 - [WordPress Audit](WordPress-Audit-Procedures) - Technical assessment procedures
 - [Migration Planning](Migration-Planning) - Headless WordPress strategy
-- [Content Guidelines](Content-Management-Guidelines) - Team collaboration standards
-- [Technical Standards](Technical-Standards) - Development guidelines
-- [Meeting Notes](Meeting-Notes-&-Decisions) - Project history and decisions
-- [Troubleshooting](Troubleshooting-Guide) - Common issues and solutions
+- [Master Documentation](Master-Wiki-Page) - Complete project overview
 
 ## Project Status: Preparation Complete ✅
 
